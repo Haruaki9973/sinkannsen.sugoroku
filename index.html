@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新幹線すごろくゲーム</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>新幹線すごろくゲーム</h1>
+    <p>新大阪から東京まで新幹線を進んでいこう！</p>
+    <button id="roll-dice">サイコロを振る</button>
+    <div id="map" style="height: 400px;"></div>
+    <p id="status">現在の駅: 新大阪</p>
+    <p id="event-message"></p>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
